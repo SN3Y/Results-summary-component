@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./tailwind.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+<body class="font-family-Hanken md:py-9">
+
+  <section class="w-[90%] max-w-md mx-auto bg-white shadow-2xl md:flex md:rounded-2xl md:max-w-4xl">
+
+    <article class="bg-gradient-to-b from-light-slate-blue to-light-royal-blue rounded-b-2xl 
+    p-10 text-white text-center md:rounded-2xl md:w-1/2 md:grid md:content-center">
+      
+      <p class="text-xl font-bold text-light-lavender">Your Result</p>
+      <div class="w-36 aspect-square bg-gradient-to-b from-violet-blue to-persian-blue
+      rounded-full mx-auto my-8 grid content-center md:w-56">
+
+        <p class="text-5xl font-bold mb-2 md:text-7xl">76</p>
+        <p class="font-bold text-light-lavender">of 100</p>
+      </div>
+      <h3 class="text-3xl mb-4 font-bold">Great</h3>
+      <p class="text-light-lavender">You scored higher than 65% of the people
+         who have taken these tests.
+      </p>
+    </article>
+    <article class="p-10 grid gap-6 md:w-1/2">
+
+      <h3 class="text-xl font-bold">Summary</h3>
+      <div class="bg-light-red/5 rounded-xl flex py-5 px-6 items-center">
+        <img src="./assets/images/icon-reaction.svg" alt="">
+        <p class="ml-3 text-lg text-light-red">Reaction</p>
+        <p class="ml-auto font-bold text-dark-gray-blue">
+          <span>80</span>
+          <span class="text-dark-gray-blue/70">/ 100</span>
+        </p>
+      </div>
+
+      <div class="bg-orangey-yellow/5 rounded-xl flex py-5 px-6 items-center">
+        <img src="./assets/images/icon-memory.svg" alt="">
+        <p class="text-lg text-orangey-yellow ml-3">Memory</p>
+        <p class="ml-auto font-bold text-dark-gray-blue">
+          <span>61</span>
+          <span  class="text-dark-gray-blue/70">/ 100</span>
+        </p>
+      </div>
+
+      <div class="bg-light-red/5 rounded-xl flex py-5 px-6 items-center">
+        <img src="./assets/images/icon-verbal.svg" alt="">
+        <p class="ml-3 text-lg text-green-teal">Verbal</p>
+        <p class="text-dark-gray-blue font-bold ml-auto">
+          <span>80</span>
+          <span class="text-dark-gray-blue/70">/ 100</span>
+        </p>
+      </div>
+
+      <div class="bg-light-red/5 rounded-xl flex py-5 px-6 items-center">
+        <img src="./assets/images/icon-visual.svg" alt="">
+        <p class="ml-3 text-lg text-cobalt-blue">Visual</p>
+        <p class="font-bold text-dark-gray-blue ml-auto">
+          <span>72</span>
+          <span class="text-dark-gray-blue/70">/ 100</span>
+        </p>
+      </div>
+      
+      <a class="bg-dark-gray-blue text-white rounded-full py-5 text-center
+        font-bold hover:bg-gradient-to-b from-light-slate-blue to-light-royal-blue" href="#">Continue
+      </a>
+
+    </article>
+    <div class="w-screen invisible mt-64">--</div>
+    <div class="w-screen invisible mt-64">--</div>
+  </section>
+  
+</body>
+</html>
